@@ -1,0 +1,68 @@
+#header{
+		background: url("https://image.freepik.com/free-photo/colorful-healthy-unhealthy-food-white-textured-background_23-2147885658.jpg") center center / cover no-repeat;
+	}
+  .contact{
+    background-image:url("https://wallpapercave.com/wp/wp2940445.jpg");
+    color: white;
+    
+    padding:20px;
+
+
+}
+.contact h1{
+  text-align: center;
+}
+.contact h6{
+  text-align: center;
+  padding-bottom: 20px;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+form label{
+    font-size: 1.5rem;
+}
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 5px;
+    padding-left: 7px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    
+}
+input:focus, textarea:focus, select:focus{
+      border-radius: 1px;
+    }
+input[type="submit"]{
+    width: initial;
+    background-color: royalblue;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+input[type="submit"]:hover{
+    color: #22le3f;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+  .footer{
+    text-align:right;
+    color:white;
+    font-size:15px;
+  }
+  .footer h6{
+    padding:5px;
+    width: 100%;
+  }
+ @media(min-width: 480px) and (max-width: 574){
+    form{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
